@@ -1,0 +1,836 @@
+<nav class="navbar navbar-expand navbar-dark" style="background-color: #203764; height: 40px;
+              padding: 20px 400px 5px 5px; color: white;">
+        <div class="collapse navbar-collapse" id="navbarNav" >
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <img src="assets/img/dash1.png" style="width: 25px;" alt="dashboard" class="img">
+            </li>
+            <li class="nav-item">
+              <p style="margin-left: 10px; font-size: medium;">NAM Devops Dashboard</p>
+            </li>
+          </ul>
+        </div>
+</nav>
+    <div class="example-card-wrapper">
+
+<!-- Digital tab -->
+    <mat-card  class="example-card-main">
+
+      <mat-card-title style="font-size: 20px; text-align: center; background-color: #668cff; ">Digital</mat-card-title>
+      <div style="display: inline-flex;">
+      <!-- first block start-->
+        <mat-card class="example-card">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title style="font-size: 10px;">Environment Management</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <div class="button-row" >
+                <button mat-raised-button color="primary">June UAT1</button>
+                <button mat-raised-button color="warn">Down</button>
+              </div>
+              <div class="button-row">
+                <button mat-raised-button color="primary">July UAT3</button>
+                <button mat-raised-button color="basic">Running</button>
+              </div>
+            </mat-card-content>
+          </mat-card>
+        <!-- Second block start-->
+          <mat-card class="example-card">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image2"></div>
+              <mat-card-title style="font-size: 10px; height: 20px;   ">Incident Management
+                <br>
+              <p style="font-size: 10px; text-align: center;">Incident Summary:</p>
+            </mat-card-title>
+            </mat-card-header>
+            <div >
+              <table style="font-size: xx-small;">
+                <tr>
+                  <td></td>
+                  <td>Open/WIP</td>
+                  <td>Resolved</td>
+                </tr>
+                <tr>
+                  <td style="padding-right: 10px;">
+                    <button mat-raised-button color="primary"s >June UAT1</button>
+                  </td>
+                  <td>
+                    <button style="border-radius: 50%; font-size: 10px; background-color: goldenrod;">1</button>
+                  </td>
+                  <td>
+                    <button style="border-radius: 50%; font-size: 10px; background-color:seagreen;">0</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button mat-raised-button color="primary">July UAT3</button>
+                  </td>
+                  <td>
+                    <button style="border-radius: 50%; font-size: 10px; background-color: goldenrod;">0</button>
+                  </td>
+                  <td>
+                    <button style="border-radius: 50%; font-size: 10px; background-color:seagreen;">2</button>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </mat-card>
+
+      <!-- Third block start-->
+            <mat-card class="example-card" style="margin: auto; padding: 12px 10px 10px 25px;  ">
+              <mat-card-header>
+                <div mat-card-avatar class="example-header-image3"></div>
+                <mat-card-title style="font-size: 10px;"> Change Management</mat-card-title>
+              </mat-card-header>
+              <mat-card-content>
+                  <table style="align-content: center;">
+                     <tr>
+                       <td style="font-size: 10px;">
+                         Green Zone
+                       </td>
+                       <td>
+                        <button style="margin-left: 10px; font-size: 10px; height: 30px; width: 80px; background-color: forestgreen;
+                        border-radius: 50%;">In Progress</button>
+                       </td>
+                     </tr>
+                     <tr style="height: 20px;">
+                       <td>
+                        <div mat-card-avatar class="example-header-image4"></div>
+                       </td>
+                       <td>
+                        <button style="margin-left: 10px; font-size: 10px; height: 20px; width: 100px; background-color:gray;
+                        border-radius: 10%;">4:30 PM-6 PM CT  </button>
+                       </td>
+                     </tr>
+                   </table>
+                <div>
+                  <table>
+                  <tr>
+                    <td>
+                      <button style="font-size: 10px; background-color: lightblue; width: 50px;">5</button>
+                    </td>
+                    <td>
+                      <button style="font-size: 10px; background-color: goldenrod; width: 50px;">4</button>
+                    </td>
+                    <td>
+                      <button style="font-size: 10px; background-color: forestgreen; width: 50px;">1</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="font-size: 10px; text-align: center;">Approved</td>
+                    <td style="font-size: 10px; text-align: center;">WIP</td>
+                    <td style="font-size: 10px; text-align: center;">Implemented</td>
+                  </tr>
+                </table>
+                </div>
+
+              </mat-card-content>
+            </mat-card>
+        </div>
+
+
+        <div style="display: inline-flex; padding: 0px;">
+      <!-- fourth block start-->
+          <mat-card class="example-card">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image1"></div>
+              <mat-card-title style="font-size: 10px; ">Patch Management
+                <br>
+                <br>
+              <p style="font-size: 10px; text-align: center;">Upcoming Patch tasks:</p>
+            </mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <div class="button-row1">
+                <button mat-raised-button color="basic" style="width: 80px; height:17px;">PTSK000123455</button>
+                <button mat-raised-button color="primary" style="width: 60px; height:17px;">25-Jun-2020</button>
+              </div>
+              <div class="button-row1">
+                <button mat-raised-button color="basic" style="width: 80px; height:17px;">PTSK000123456</button>
+                <button mat-raised-button color="primary" style="width: 60px; height:17px;">28-Jun-2020</button>
+              </div>
+            </mat-card-content>
+          </mat-card>
+
+
+  <!-- fifth block start-->
+        <mat-card class="example-card" style="margin: auto; padding: 12px 10px 10px 25px;">
+          <mat-card-header>
+            <div mat-card-avatar class="example-header-image5"></div>
+            <mat-card-title style="font-size: 10px;">Code Drop Management</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <div class="button-row" style="padding: 10px 10px 10px 30px;" >
+              <button mat-raised-button color="primary">July UAT3</button>
+            </div>
+            <div>
+              <table>
+                <tr>
+                  <td>
+                    <button style="font-size: 10px; background-color: goldenrod; width: 60px;">Upcoming Code drop</button>
+                  </td>
+                  <td>
+                    <button style="font-size: 10px; background-color: forestgreen; width: 10 0px;">18th July 2020</button>
+                  </td>
+                </tr>
+                </table>
+            </div>
+
+          </mat-card-content>
+        </mat-card>
+
+  <!-- Sixth block start-->
+         <mat-card class="example-card" style="margin: auto; padding: 10px 10px 10px 20px;">
+          <mat-card-header>
+            <div mat-card-avatar class="example-header-image6"></div>
+            <mat-card-title style="font-size: 10px;">Defect Management</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+                       <div>
+              <table>
+                <tr>
+                  <td style="font-size: 10px; text-align: center;">Critical</td>
+                  <td style="font-size: 10px; text-align: center;">High</td>
+                  <td style="font-size: 10px; text-align: center;">Meduim</td>
+                  <td style="font-size: 10px; text-align: center;">Low</td>
+                </tr>
+                <tr>
+                  <td>
+                    <button style="font-size: 10px; background-color: indianred; width: 40px; height: 50px;">1</button>
+                  </td>
+                  <td>
+                    <button style="font-size: 10px; background-color: goldenrod; width: 40px; height: 50px;">3</button>
+                  </td>
+                  <td>
+                    <button style="font-size: 10px;  background-color: forestgreen; width: 40px; height: 50px;">2</button>
+                  </td>
+                  <td>
+                    <button style="font-size: 10px; background-color: skyblue; width: 40px; height: 50px;">2</button>
+                  </td>
+                </tr>
+                </table>
+            </div>
+
+          </mat-card-content>
+        </mat-card>
+        </div>
+    </mat-card>
+
+  <!-- Retail tab -->
+    <mat-card class="example-card-main">
+      <mat-card-title style="font-size: 25px; text-align: center; background-color: #668cff;">US Retail</mat-card-title>
+
+      <div style="display: inline-flex;">
+<!-- first block start-->
+        <mat-card class="example-card">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title style="font-size: 10px;">Environment Management</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <div class="button-row" >
+                <button mat-raised-button color="primary">June UAT1</button>
+                <button mat-raised-button color="warn">Down</button>
+              </div>
+              <div class="button-row">
+                <button mat-raised-button color="primary">July UAT3</button>
+                <button mat-raised-button color="basic">Running</button>
+              </div>
+            </mat-card-content>
+          </mat-card>
+        <!-- Second block start-->
+          <mat-card class="example-card">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image2"></div>
+              <mat-card-title style="font-size: 10px; height: 20px;   ">Incident Management
+                <br>
+              <p style="font-size: 10px; text-align: center;">Incident Summary:</p>
+            </mat-card-title>
+            </mat-card-header>
+            <div >
+              <table style="font-size: xx-small;">
+                <tr>
+                  <td></td>
+                  <td>Open/WIP</td>
+                  <td>Resolved</td>
+                </tr>
+                <tr>
+                  <td style="padding-right: 10px;">
+                    <button mat-raised-button color="primary"s >June UAT1</button>
+                  </td>
+                  <td>
+                    <button style="border-radius: 50%; font-size: 10px; background-color: goldenrod;">1</button>
+                  </td>
+                  <td>
+                    <button style="border-radius: 50%; font-size: 10px; background-color:seagreen;">0</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button mat-raised-button color="primary">July UAT3</button>
+                  </td>
+                  <td>
+                    <button style="border-radius: 50%; font-size: 10px; background-color: goldenrod;">0</button>
+                  </td>
+                  <td>
+                    <button style="border-radius: 50%; font-size: 10px; background-color:seagreen;">2</button>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </mat-card>
+
+      <!-- Third block start-->
+            <mat-card class="example-card" style="margin: auto; padding: 12px 10px 10px 25px;  ">
+              <mat-card-header>
+                <div mat-card-avatar class="example-header-image3"></div>
+                <mat-card-title style="font-size: 10px;"> Change Management</mat-card-title>
+              </mat-card-header>
+              <mat-card-content>
+                  <table style="align-content: center;">
+                     <tr>
+                       <td style="font-size: 10px;">
+                         Green Zone
+                       </td>
+                       <td>
+                        <button style="margin-left: 10px; font-size: 10px; height: 30px; width: 80px; background-color: forestgreen;
+                        border-radius: 50%;">In Progress</button>
+                       </td>
+                     </tr>
+                     <tr>
+                       <td>
+                        <div mat-card-avatar class="example-header-image4"></div>
+                       </td>
+                       <td>
+                        <button style="margin-left: 10px; font-size: 10px; height: 20px; width: 100px; background-color:gray;
+                        border-radius: 10%;">4:30 PM-6 PM CT  </button>
+                       </td>
+                     </tr>
+                   </table>
+                <div>
+                  <table>
+                  <tr>
+                    <td>
+                      <button style="font-size: 10px; background-color: lightblue; width: 50px;">5</button>
+                    </td>
+                    <td>
+                      <button style="font-size: 10px; background-color: goldenrod; width: 50px;">4</button>
+                    </td>
+                    <td>
+                      <button style="font-size: 10px; background-color: forestgreen; width: 50px;">1</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="font-size: 10px; text-align: center;">Approved</td>
+                    <td style="font-size: 10px; text-align: center;">WIP</td>
+                    <td style="font-size: 10px; text-align: center;">Implemented</td>
+                  </tr>
+                </table>
+                </div>
+
+              </mat-card-content>
+            </mat-card>
+        </div>
+
+
+        <div style="display: inline-flex; padding: 0px;">
+      <!-- fourth block start-->
+          <mat-card class="example-card">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image1"></div>
+              <mat-card-title style="font-size: 10px; ">Patch Management
+                <br>
+                <br>
+              <p style="font-size: 10px; text-align: center;">Upcoming Patch tasks:</p>
+            </mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <div class="button-row1">
+                <button mat-raised-button color="basic" style="width: 80px; height:17px;">PTSK000123455</button>
+                <button mat-raised-button color="primary" style="width: 60px; height:17px;">25-Jun-2020</button>
+              </div>
+              <div class="button-row1">
+                <button mat-raised-button color="basic" style="width: 80px; height:17px;">PTSK000123456</button>
+                <button mat-raised-button color="primary" style="width: 60px; height:17px;">28-Jun-2020</button>
+              </div>
+            </mat-card-content>
+          </mat-card>
+
+
+  <!-- fifth block start-->
+        <mat-card class="example-card" style="margin: auto; padding: 12px 10px 10px 25px;">
+          <mat-card-header>
+            <div mat-card-avatar class="example-header-image5"></div>
+            <mat-card-title style="font-size: 10px;">Code Drop Management</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <div class="button-row" style="padding: 10px 10px 10px 30px;" >
+              <button mat-raised-button color="primary">July UAT3</button>
+            </div>
+            <div>
+              <table>
+                <tr>
+                  <td>
+                    <button style="font-size: 10px; background-color: goldenrod; width: 60px;">Upcoming Code drop</button>
+                  </td>
+                  <td>
+                    <button style="font-size: 10px; background-color: forestgreen; width: 10 0px;">18th July 2020</button>
+                  </td>
+                </tr>
+                </table>
+            </div>
+
+          </mat-card-content>
+        </mat-card>
+
+  <!-- Sixth block start-->
+         <mat-card class="example-card" style="margin: auto; padding: 10px 10px 10px 20px;">
+          <mat-card-header>
+            <div mat-card-avatar class="example-header-image6"></div>
+            <mat-card-title style="font-size: 10px;">Defect Management</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+                       <div>
+              <table>
+                <tr>
+                  <td style="font-size: 10px; text-align: center;">Critical</td>
+                  <td style="font-size: 10px; text-align: center;">High</td>
+                  <td style="font-size: 10px; text-align: center;">Meduim</td>
+                  <td style="font-size: 10px; text-align: center;">Low</td>
+                </tr>
+                <tr>
+                  <td>
+                    <button style="font-size: 10px; background-color: indianred; width: 40px; height: 50px;">1</button>
+                  </td>
+                  <td>
+                    <button style="font-size: 10px; background-color: goldenrod; width: 40px; height: 50px;">3</button>
+                  </td>
+                  <td>
+                    <button style="font-size: 10px;  background-color: forestgreen; width: 40px; height: 50px;">2</button>
+                  </td>
+                  <td>
+                    <button style="font-size: 10px; background-color: skyblue; width: 40px; height: 50px;">2</button>
+                  </td>
+                </tr>
+                </table>
+            </div>
+
+          </mat-card-content>
+        </mat-card>
+        </div>
+    </mat-card>
+
+  </div>
+
+  <div class="example-card-wrapper">
+
+    <!-- CRS tab -->
+        <mat-card  class="example-card-main">
+
+          <mat-card-title style="font-size: 20px; text-align: center; background-color: #668cff; ">CRS</mat-card-title>
+          <div style="display: inline-flex;">
+          <!-- first block start-->
+            <mat-card class="example-card">
+                <mat-card-header>
+                  <div mat-card-avatar class="example-header-image"></div>
+                  <mat-card-title style="font-size: 10px;">Environment Management</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+                  <div class="button-row" >
+                    <button mat-raised-button color="primary">June UAT1</button>
+                    <button mat-raised-button color="warn">Down</button>
+                  </div>
+                  <div class="button-row">
+                    <button mat-raised-button color="primary">July UAT3</button>
+                    <button mat-raised-button color="basic">Running</button>
+                  </div>
+                </mat-card-content>
+              </mat-card>
+            <!-- Second block start-->
+              <mat-card class="example-card">
+                <mat-card-header>
+                  <div mat-card-avatar class="example-header-image2"></div>
+                  <mat-card-title style="font-size: 10px; height: 20px;   ">Incident Management
+                    <br>
+                  <p style="font-size: 10px; text-align: center;">Incident Summary:</p>
+                </mat-card-title>
+                </mat-card-header>
+                <div >
+                  <table style="font-size: xx-small;">
+                    <tr>
+                      <td></td>
+                      <td>Open/WIP</td>
+                      <td>Resolved</td>
+                    </tr>
+                    <tr>
+                      <td style="padding-right: 10px;">
+                        <button mat-raised-button color="primary"s >June UAT1</button>
+                      </td>
+                      <td>
+                        <button style="border-radius: 50%; font-size: 10px; background-color: goldenrod;">1</button>
+                      </td>
+                      <td>
+                        <button style="border-radius: 50%; font-size: 10px; background-color:seagreen;">0</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button mat-raised-button color="primary">July UAT3</button>
+                      </td>
+                      <td>
+                        <button style="border-radius: 50%; font-size: 10px; background-color: goldenrod;">0</button>
+                      </td>
+                      <td>
+                        <button style="border-radius: 50%; font-size: 10px; background-color:seagreen;">2</button>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </mat-card>
+
+          <!-- Third block start-->
+                <mat-card class="example-card" style="margin: auto; padding: 12px 10px 10px 25px;  ">
+                  <mat-card-header>
+                    <div mat-card-avatar class="example-header-image3"></div>
+                    <mat-card-title style="font-size: 10px;"> Change Management</mat-card-title>
+                  </mat-card-header>
+                  <mat-card-content>
+                      <table style="align-content: center;">
+                         <tr>
+                           <td style="font-size: 10px;">
+                             Green Zone
+                           </td>
+                           <td>
+                            <button style="margin-left: 10px; font-size: 10px; height: 30px; width: 80px; background-color: forestgreen;
+                            border-radius: 50%;">In Progress</button>
+                           </td>
+                         </tr>
+                         <tr style="height: 20px;">
+                           <td>
+                            <div mat-card-avatar class="example-header-image4"></div>
+                           </td>
+                           <td>
+                            <button style="margin-left: 10px; font-size: 10px; height: 20px; width: 100px; background-color:gray;
+                            border-radius: 10%;">4:30 PM-6 PM CT  </button>
+                           </td>
+                         </tr>
+                       </table>
+                    <div>
+                      <table>
+                      <tr>
+                        <td>
+                          <button style="font-size: 10px; background-color: lightblue; width: 50px;">5</button>
+                        </td>
+                        <td>
+                          <button style="font-size: 10px; background-color: goldenrod; width: 50px;">4</button>
+                        </td>
+                        <td>
+                          <button style="font-size: 10px; background-color: forestgreen; width: 50px;">1</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="font-size: 10px; text-align: center;">Approved</td>
+                        <td style="font-size: 10px; text-align: center;">WIP</td>
+                        <td style="font-size: 10px; text-align: center;">Implemented</td>
+                      </tr>
+                    </table>
+                    </div>
+
+                  </mat-card-content>
+                </mat-card>
+            </div>
+
+
+            <div style="display: inline-flex; padding: 0px;">
+          <!-- fourth block start-->
+              <mat-card class="example-card">
+                <mat-card-header>
+                  <div mat-card-avatar class="example-header-image1"></div>
+                  <mat-card-title style="font-size: 10px; ">Patch Management
+                    <br>
+                    <br>
+                  <p style="font-size: 10px; text-align: center;">Upcoming Patch tasks:</p>
+                </mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+                  <div class="button-row1">
+                    <button mat-raised-button color="basic" style="width: 80px; height:17px;">PTSK000123455</button>
+                    <button mat-raised-button color="primary" style="width: 60px; height:17px;">25-Jun-2020</button>
+                  </div>
+                  <div class="button-row1">
+                    <button mat-raised-button color="basic" style="width: 80px; height:17px;">PTSK000123456</button>
+                    <button mat-raised-button color="primary" style="width: 60px; height:17px;">28-Jun-2020</button>
+                  </div>
+                </mat-card-content>
+              </mat-card>
+
+
+      <!-- fifth block start-->
+            <mat-card class="example-card" style="margin: auto; padding: 12px 10px 10px 25px;">
+              <mat-card-header>
+                <div mat-card-avatar class="example-header-image5"></div>
+                <mat-card-title style="font-size: 10px;">Code Drop Management</mat-card-title>
+              </mat-card-header>
+              <mat-card-content>
+                <div class="button-row" style="padding: 10px 10px 10px 30px;" >
+                  <button mat-raised-button color="primary">July UAT3</button>
+                </div>
+                <div>
+                  <table>
+                    <tr>
+                      <td>
+                        <button style="font-size: 10px; background-color: goldenrod; width: 60px;">Upcoming Code drop</button>
+                      </td>
+                      <td>
+                        <button style="font-size: 10px; background-color: forestgreen; width: 10 0px;">18th July 2020</button>
+                      </td>
+                    </tr>
+                    </table>
+                </div>
+
+              </mat-card-content>
+            </mat-card>
+
+      <!-- Sixth block start-->
+             <mat-card class="example-card" style="margin: auto; padding: 10px 10px 10px 20px;">
+              <mat-card-header>
+                <div mat-card-avatar class="example-header-image6"></div>
+                <mat-card-title style="font-size: 10px;">Defect Management</mat-card-title>
+              </mat-card-header>
+              <mat-card-content>
+                           <div>
+                  <table>
+                    <tr>
+                      <td style="font-size: 10px; text-align: center;">Critical</td>
+                      <td style="font-size: 10px; text-align: center;">High</td>
+                      <td style="font-size: 10px; text-align: center;">Meduim</td>
+                      <td style="font-size: 10px; text-align: center;">Low</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button style="font-size: 10px; background-color: indianred; width: 40px; height: 50px;">1</button>
+                      </td>
+                      <td>
+                        <button style="font-size: 10px; background-color: goldenrod; width: 40px; height: 50px;">3</button>
+                      </td>
+                      <td>
+                        <button style="font-size: 10px;  background-color: forestgreen; width: 40px; height: 50px;">2</button>
+                      </td>
+                      <td>
+                        <button style="font-size: 10px; background-color: skyblue; width: 40px; height: 50px;">2</button>
+                      </td>
+                    </tr>
+                    </table>
+                </div>
+
+              </mat-card-content>
+            </mat-card>
+            </div>
+        </mat-card>
+
+      <!-- Cards tab -->
+        <mat-card class="example-card-main">
+          <mat-card-title style="font-size: 25px; text-align: center; background-color: #668cff;">Cards</mat-card-title>
+
+          <div style="display: inline-flex;">
+    <!-- first block start-->
+            <mat-card class="example-card">
+                <mat-card-header>
+                  <div mat-card-avatar class="example-header-image"></div>
+                  <mat-card-title style="font-size: 10px;">Environment Management</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+                  <div class="button-row" >
+                    <button mat-raised-button color="primary">June UAT1</button>
+                    <button mat-raised-button color="warn">Down</button>
+                  </div>
+                  <div class="button-row">
+                    <button mat-raised-button color="primary">July UAT3</button>
+                    <button mat-raised-button color="basic">Running</button>
+                  </div>
+                </mat-card-content>
+              </mat-card>
+            <!-- Second block start-->
+              <mat-card class="example-card">
+                <mat-card-header>
+                  <div mat-card-avatar class="example-header-image2"></div>
+                  <mat-card-title style="font-size: 10px; height: 20px;   ">Incident Management
+                    <br>
+                  <p style="font-size: 10px; text-align: center;">Incident Summary:</p>
+                </mat-card-title>
+                </mat-card-header>
+                <div >
+                  <table style="font-size: xx-small;">
+                    <tr>
+                      <td></td>
+                      <td>Open/WIP</td>
+                      <td>Resolved</td>
+                    </tr>
+                    <tr>
+                      <td style="padding-right: 10px;">
+                        <button mat-raised-button color="primary"s >June UAT1</button>
+                      </td>
+                      <td>
+                        <button style="border-radius: 50%; font-size: 10px; background-color: goldenrod;">1</button>
+                      </td>
+                      <td>
+                        <button style="border-radius: 50%; font-size: 10px; background-color:seagreen;">0</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button mat-raised-button color="primary">July UAT3</button>
+                      </td>
+                      <td>
+                        <button style="border-radius: 50%; font-size: 10px; background-color: goldenrod;">0</button>
+                      </td>
+                      <td>
+                        <button style="border-radius: 50%; font-size: 10px; background-color:seagreen;">2</button>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </mat-card>
+
+          <!-- Third block start-->
+                <mat-card class="example-card" style="margin: auto; padding: 12px 10px 10px 25px;  ">
+                  <mat-card-header>
+                    <div mat-card-avatar class="example-header-image3"></div>
+                    <mat-card-title style="font-size: 10px;"> Change Management</mat-card-title>
+                  </mat-card-header>
+                  <mat-card-content>
+                      <table style="align-content: center;">
+                         <tr>
+                           <td style="font-size: 10px;">
+                             Green Zone
+                           </td>
+                           <td>
+                            <button style="margin-left: 10px; font-size: 10px; height: 30px; width: 80px; background-color: forestgreen;
+                            border-radius: 50%;">In Progress</button>
+                           </td>
+                         </tr>
+                         <tr>
+                           <td>
+                            <div mat-card-avatar class="example-header-image4"></div>
+                           </td>
+                           <td>
+                            <button style="margin-left: 10px; font-size: 10px; height: 20px; width: 100px; background-color:gray;
+                            border-radius: 10%;">4:30 PM-6 PM CT  </button>
+                           </td>
+                         </tr>
+                       </table>
+                    <div>
+                      <table>
+                      <tr>
+                        <td>
+                          <button style="font-size: 10px; background-color: lightblue; width: 50px;">5</button>
+                        </td>
+                        <td>
+                          <button style="font-size: 10px; background-color: goldenrod; width: 50px;">4</button>
+                        </td>
+                        <td>
+                          <button style="font-size: 10px; background-color: forestgreen; width: 50px;">1</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="font-size: 10px; text-align: center;">Approved</td>
+                        <td style="font-size: 10px; text-align: center;">WIP</td>
+                        <td style="font-size: 10px; text-align: center;">Implemented</td>
+                      </tr>
+                    </table>
+                    </div>
+
+                  </mat-card-content>
+                </mat-card>
+            </div>
+
+
+            <div style="display: inline-flex; padding: 0px;">
+          <!-- fourth block start-->
+              <mat-card class="example-card">
+                <mat-card-header>
+                  <div mat-card-avatar class="example-header-image1"></div>
+                  <mat-card-title style="font-size: 10px; ">Patch Management
+                    <br>
+                    <br>
+                  <p style="font-size: 10px; text-align: center;">Upcoming Patch tasks:</p>
+                </mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+                  <div class="button-row1">
+                    <button mat-raised-button color="basic" style="width: 80px; height:17px;">PTSK000123455</button>
+                    <button mat-raised-button color="primary" style="width: 60px; height:17px;">25-Jun-2020</button>
+                  </div>
+                  <div class="button-row1">
+                    <button mat-raised-button color="basic" style="width: 80px; height:17px;">PTSK000123456</button>
+                    <button mat-raised-button color="primary" style="width: 60px; height:17px;">28-Jun-2020</button>
+                  </div>
+                </mat-card-content>
+              </mat-card>
+
+
+      <!-- fifth block start-->
+            <mat-card class="example-card" style="margin: auto; padding: 12px 10px 10px 25px;">
+              <mat-card-header>
+                <div mat-card-avatar class="example-header-image5"></div>
+                <mat-card-title style="font-size: 10px;">Code Drop Management</mat-card-title>
+              </mat-card-header>
+              <mat-card-content>
+                <div class="button-row" style="padding: 10px 10px 10px 30px;" >
+                  <button mat-raised-button color="primary">July UAT3</button>
+                </div>
+                <div>
+                  <table>
+                    <tr>
+                      <td>
+                        <button style="font-size: 10px; background-color: goldenrod; width: 60px;">Upcoming Code drop</button>
+                      </td>
+                      <td>
+                        <button style="font-size: 10px; background-color: forestgreen; width: 10 0px;">18th July 2020</button>
+                      </td>
+                    </tr>
+                    </table>
+                </div>
+
+              </mat-card-content>
+            </mat-card>
+
+      <!-- Sixth block start-->
+             <mat-card class="example-card" style="margin: auto; padding: 10px 10px 10px 20px;">
+              <mat-card-header>
+                <div mat-card-avatar class="example-header-image6"></div>
+                <mat-card-title style="font-size: 10px;">Defect Management</mat-card-title>
+              </mat-card-header>
+              <mat-card-content>
+                           <div>
+                  <table>
+                    <tr>
+                      <td style="font-size: 10px; text-align: center;">Critical</td>
+                      <td style="font-size: 10px; text-align: center;">High</td>
+                      <td style="font-size: 10px; text-align: center;">Meduim</td>
+                      <td style="font-size: 10px; text-align: center;">Low</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button style="font-size: 10px; background-color: indianred; width: 40px; height: 50px;">1</button>
+                      </td>
+                      <td>
+                        <button style="font-size: 10px; background-color: goldenrod; width: 40px; height: 50px;">3</button>
+                      </td>
+                      <td>
+                        <button style="font-size: 10px;  background-color: forestgreen; width: 40px; height: 50px;">2</button>
+                      </td>
+                      <td>
+                        <button style="font-size: 10px; background-color: skyblue; width: 40px; height: 50px;">2</button>
+                      </td>
+                    </tr>
+                    </table>
+                </div>
+
+              </mat-card-content>
+            </mat-card>
+            </div>
+        </mat-card>
+
+      </div>

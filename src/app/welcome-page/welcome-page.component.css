@@ -1,0 +1,9 @@
+.carousel-inner img {
+  width: 100%;
+  height: 570px;
+  max-height: 567px;
+}
+
+img{
+   cursor: pointer;
+}

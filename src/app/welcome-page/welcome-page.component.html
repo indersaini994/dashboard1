@@ -1,0 +1,57 @@
+<!-- Image and text -->
+<nav class="navbar navbar-expand navbar-dark" style="background-color: #203764;">
+  <a class="navbar-brand" href="#">
+    <img src="assets/img/Citi.jpg" width="40" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+    NAM Devops Portal
+  </a>
+  <div class="collapse navbar-collapse" id="navbarNav" >
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" routerLinkActive="active">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" routerLinkActive="active">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" routerLinkActive="active">LOB</a>
+      </li>
+    </ul>
+  </div>
+
+  <form class="form-inline my-2 my-lg-0"  style="text-align: end;">
+      <div>
+        <img src="assets/img/per3.png" width="40" height="40"  (click)="onLogin()" class="d-inline-block align-top" >
+      </div>
+  </form>
+</nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/devops5.jpg" alt="Devops">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/devops1.png" alt="Devops" >
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/devops4.jpg" alt="Devops" >
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<router-outlet></router-outlet>
